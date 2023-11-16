@@ -1,0 +1,32 @@
+/* body {
+    padding: 0px;
+    margin: 0px;
+    background: url('img/weight.jpg');
+    width: 50%;
+} */
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 0px;
+    border: 2px solid black;
+}
+
+.mid {
+    color: white;
+    display: block;
+    width: 52%;
+    margin: 0px auto;
+    border: 2px solid violet;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 0px;
+    border: 2px solid darkorchid;
+}
+
+.navbar
