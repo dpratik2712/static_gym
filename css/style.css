@@ -8,15 +8,21 @@
 .left {
     display: inline-block;
     position: absolute;
-    left: 34px;
+    left: 15px;
     top: 0px;
     border: 2px solid black;
+    width: 83px;
+    /* padding: 0px 15px; */
+}
+
+.left img {
+    width: 83px;
 }
 
 .mid {
     color: white;
     display: block;
-    width: 52%;
+    width: 50%;
     margin: 0px auto;
     border: 2px solid violet;
 }
@@ -29,4 +35,24 @@
     border: 2px solid darkorchid;
 }
 
-.navbar
+.navbar,
+li {
+    display: inline-block;
+}
+
+.navbar,
+li,
+a {
+    display: inline-block;
+    padding: 2px 19px;
+    margin: 4px 2px;
+    text-decoration: double;
+    font-size: 27px;
+}
+
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: cornsilk;
+}
