@@ -11,18 +11,19 @@
     left: 15px;
     top: 0px;
     border: 2px solid black;
-    width: 83px;
+    width: 88px;
     /* padding: 0px 15px; */
 }
 
 .left img {
     width: 83px;
+
 }
 
 .mid {
     color: white;
     display: block;
-    width: 50%;
+    width: 41%;
     margin: 0px auto;
     border: 2px solid violet;
 }
@@ -44,10 +45,10 @@ li {
 li,
 a {
     display: inline-block;
-    padding: 2px 19px;
-    margin: 4px 2px;
+    padding: 1px 13px;
+    margin: 5px 4px;
     text-decoration: double;
-    font-size: 27px;
+    font-size: 20px
 }
 
 
@@ -55,4 +56,31 @@ a {
     text-decoration: underline;
     color: black;
     background-color: cornsilk;
+}
+
+.container {
+    margin: 131px 54px;
+    padding: 33px 48px;
+    border: 2px solid black;
+    width: 55%;
+    border-radius: 5px;
+    /* text-align: center; */
+    /* align-items: center; */
+}
+
+.form-group input {
+    align-items: center;
+    text-align: center;
+    display: block;
+    padding: 3px 2px;
+    margin: 5px 5px;
+
+}
+
+.btn {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 5px;
+    font-size: medium;
 }
